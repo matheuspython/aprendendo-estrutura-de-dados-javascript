@@ -15,3 +15,12 @@ const  avgTempMay = 25.5;
 const avgTemp = [31.9, 35.3, 42, 38, 25.5];
 
 avgTemp.forEach((value, i) => console.log(`temperatura do mês ${i} é  ${value}`))
+
+//formas de criar um array
+
+//array feito com construtor
+const daysOfWeek = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday')
+
+
+//forma mais comum de iniciar um array
+const daysOfWeek2 = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
